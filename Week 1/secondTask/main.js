@@ -1,18 +1,9 @@
 // 1. Дана строка **'ddd@bbb@ccc'**. Замените все **@** на **'!'**
 
 let a = 'ddd@bbb@ccc';
-let b = a.split('');
+let b = a.replace(/@/g, '!');
 
-let f = b.map(c => {
-  if (c === '@') {
-   return  c.replace('@', '!')
-  } else {
-    return c;
-  }
-  
-})
-let result = f.join("")
-console.log(result)
+console.log(b)
 
 // 2. Дана строка **'js'**. Сделайте из нее строку **'JS'**.
 
