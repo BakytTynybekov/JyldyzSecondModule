@@ -19,11 +19,11 @@ document.write('<br/>' + myName + '<br/>' + myEmail + '<hr/>' );
 
 // 4. Интернет-магазин занимается продажей различных сувениров и безделушек. Каждый сувенир весит 75 г, а безделушка – 112 г. Напишите программу, запрашивающую у пользователя количество тех и других покупок, после чего выведите на экран общий вес посылки.
 
-// let souvenirs = prompt("How many souvenirs did you bought?")
+let souvenirs = prompt("How many souvenirs did you bought?")
 
-// let toys = prompt("How many toys did you bought?")
+let toys = prompt("How many toys did you bought?")
 
-// document.write(`Total weight of your purchases: ${((souvenirs * 75) + (toys * 112))/1000} kg `)
+document.write(`Total weight of your purchases: ${((souvenirs * 75) + (toys * 112))/1000} kg `)
 
 
 
